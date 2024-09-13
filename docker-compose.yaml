@@ -1,7 +1,7 @@
 version: "3.8"
 services:
   mongodb:
-    container_name: mongo-service
+    container_name: mongo
     image: mongo:latest
     volumes:
       - ./backend/data:/data
